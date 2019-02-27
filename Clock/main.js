@@ -4,6 +4,7 @@ const hourHand = document.querySelector('.hour-hand');
 
 function setDate() {
   const now = new Date();
+  console.log(now);
 
   const sec = now.getSeconds();
   const secDegrees = ((sec / 60) * 360 + 90);
